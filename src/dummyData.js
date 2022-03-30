@@ -212,3 +212,55 @@ export const productRows = [
     price: "$120.00",
   },
 ];
+
+export const userInputs = [
+  {
+    id: 1,
+    label: "Username",
+    type: "text",
+    placeholder: "archanme1",
+  },
+  {
+    id: 2,
+    label: "Full Name",
+    type: "text",
+    placeholder: "Archan Bhatta",
+  },
+  {
+    id: 3,
+    label: "Email",
+    type: "email",
+    placeholder: "archanme1@gmail.com",
+  },
+  {
+    id: 4,
+    label: "Phone",
+    type: "text",
+    placeholder: "9869702847",
+  },
+  {
+    id: 5,
+    label: "Password",
+    type: "password",
+  },
+  {
+    id: 6,
+    label: "Address",
+    type: "text",
+    placeholder: "5464, Mississuaga",
+  },
+  {
+    id: 7,
+    label: "Country",
+    type: "text",
+    placeholder: "Canada",
+  },
+];
+
+export const productInputs = [
+  { id: 1, label: "Title", type: "text", placeholder: "Hp Omen 15" },
+  { id: 2, label: "Description", type: "text", placeholder: "description" },
+  { id: 3, label: "Category", type: "text", placeholder: "Computers" },
+  { id: 4, label: "Price", type: "text", placeholder: "100" },
+  { id: 5, label: "Stock", type: "text", placeholder: "In Stock" },
+];
